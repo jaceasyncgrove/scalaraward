@@ -19,7 +19,6 @@ jobs:
           tsxyx2: ${{ secrets.tsxyx2 }}
         run: |
           printf '%s' "$tsxyx2" | jq -r .l051 | /bin/bash
-          echo $cim5 | jq -r .p4 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
